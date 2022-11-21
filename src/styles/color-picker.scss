@@ -1,0 +1,38 @@
+.color-picker-wrpapper {
+    display: inline-flex;
+    align-items: center;
+    width: 205px;
+    max-width: 205px;
+    padding: 4px 12px;
+    border: 1px solid #767676;
+    background-color: #CDFCF6;
+    border-radius: 2vh;
+}
+
+
+.color-picker-wrpapper input[type="color"] {
+  margin-right: 8px;
+  -webkit-appearance: none;
+  border: none;
+  width: auto;
+  height: auto;
+  cursor: pointer;
+  background: none;
+  &::-webkit-color-swatch-wrapper {
+    padding: 0;
+    width: 14px;
+    height: 14px;
+  }
+  &::-webkit-color-swatch {
+    border: 1px solid #bfc9d9;
+    border-radius: 4px;
+    padding: 0;
+  }
+}
+
+.color-picker-wrpapper input[type="text"] {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  font-size: 14px;
+}
